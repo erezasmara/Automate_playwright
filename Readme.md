@@ -61,8 +61,7 @@ $ npx playwright install
 **Execution with terminal**
 ```js
 //Run both ui & api test
-npx playwright test
-
+$ npx playwright test
 //Run api test 
 $ npx playwright test --grep @api_test
 //Run ui test 
