@@ -1,0 +1,69 @@
+{
+    "ui_data_test":[
+        {
+            "user":"erez",
+            "password":"1234"
+
+        },
+        {
+            "user":"zvika",
+            "password":"123$%"
+        }
+    ],
+    "api_data_test":[
+        {
+            "create_data":{
+                "firstname" : "erez",
+                "lastname" : "asmara",
+                "totalprice" : 333,
+                "depositpaid" : true,
+                "bookingdates" : {
+                    "checkin" : "2018-01-01",
+                    "checkout" : "2019-02-02"
+                },
+                "additionalneeds" : "Breakfast"
+            
+                },
+            "update_data":{
+                "firstname" : "suvesu",
+                "lastname" : "asmara",
+                "totalprice" : 1000,
+                "depositpaid" : true,
+                "bookingdates" : {
+                    "checkin" : "2018-03-03",
+                    "checkout" : "2019-04-04"
+                },
+                "additionalneeds" : "dinner"
+            
+                }
+        },
+        {
+            "create_data":{
+                "firstname" : "zvika",
+                "lastname" : "vieg",
+                "totalprice" : 333,
+                "depositpaid" : true,
+                "bookingdates" : {
+                    "checkin" : "2018-01-01",
+                    "checkout" : "2019-01-01"
+                },
+                "additionalneeds" : "4 star room"
+            
+                },
+            "update_data":{
+                "firstname" : "noga",
+                "lastname" : "noga",
+                "totalprice" : 1000,
+                "depositpaid" : true,
+                "bookingdates" : {
+                    "checkin" : "2011-07-07",
+                    "checkout" : "2013-08-08"
+                },
+                "additionalneeds" : "5 star room"
+            
+                }
+
+        }
+
+    ]
+}
