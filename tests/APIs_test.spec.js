@@ -6,7 +6,7 @@ const dataTest_ = require('../src/test-data/data.json')
 //Support: Serial, Grouping 
 let dataTest = dataTest_.api_data_test[0]
 
-test.describe.serial('auth, create, update booking test',() =>{
+test.describe.serial('auth, create, update booking test @api_test',() =>{
   //Single request
   let request,parsingData,status
   //Before all

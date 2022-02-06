@@ -10,7 +10,7 @@ const dataTest_ = require('../src/test-data/data.json')
 //Support Parallel, Grouping, TDD 
 let dataTest = dataTest_.ui_data_test
 
-test.describe.parallel('New user login', () => {
+test.describe.parallel('New user login @ui_test', () => {
   //single page test
   let page;
 
