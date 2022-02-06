@@ -64,16 +64,16 @@ $ npx playwright install
 npx playwright test
 
 //Run api test 
-npx playwright test --grep @api_test
+$ npx playwright test --grep @api_test
 //Run ui test 
-npx playwright test --grep @ui_test 
+$ npx playwright test --grep @ui_test 
 //Run ui test with debug mode
-npx playwright test --grep @ui_test --debug
+$ npx playwright test --grep @ui_test --debug
 //Run ui test only with firefox browser
-npx playwright test --grep @ui_test  --project=firefox 
+$ npx playwright test --grep @ui_test  --project=firefox 
 
 //Check report (html)
- npx playwright show-report
+$ npx playwright show-report
 
 ```
 
