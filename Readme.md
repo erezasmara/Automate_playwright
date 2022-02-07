@@ -1,7 +1,7 @@
 # Automate test via Playwright.js framework
 
 ### **Description** 
-Automate test with playwright framework , written with javascript.
+Automate test with playwright framework , written with javascript.\
 the purpose of the project build automation system test for UI and API.\
 REFERENCES: playwright.dev/docs/pom
 
@@ -15,7 +15,7 @@ REFERENCES: playwright.dev/docs/pom
 - UI TEST PROJECT
   - Project: demoblaze
   - website: https://www.demoblaze.com/
-  - type: user interface tests
+  - type: user interaction tests
   
  <BR>
  <BR>
@@ -53,27 +53,26 @@ REFERENCES: playwright.dev/docs/pom
 **Installation**
 ```js
 /*
-$ git clone <repository git https >
+$ git clone <https git repository>
 $ npm i -D @playwright/test
 $ npx playwright install
 */
 ```
 **Execution with terminal**
 ```js
-//Run both test ui & api
-npx playwright test
-
+//Run both ui & api test
+$ npx playwright test
 //Run api test 
-npx playwright test --grep @api_test
+$ npx playwright test --grep @api_test
 //Run ui test 
-npx playwright test --grep @ui_test 
+$ npx playwright test --grep @ui_test 
 //Run ui test with debug mode
-npx playwright test --grep @ui_test --debug
+$ npx playwright test --grep @ui_test --debug
 //Run ui test only with firefox browser
-npx playwright test --grep @ui_test  --project=firefox 
+$ npx playwright test --grep @ui_test  --project=firefox 
 
 //Check report (html)
- npx playwright show-report
+$ npx playwright show-report
 
 ```
 
